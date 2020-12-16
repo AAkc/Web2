@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/games.css">
+</head>
+
+<body>
+    <div class="harder w1200 clear">
+        <ul class="fl-left clear">
+            <li>
+                <img class="logo" src="img/logo.png" alt="GAME">
+            </li>
+            <li>
+                <a href="#">首页</a>
+            </li>
+        </ul>
+        <form class="fl-right clear">
+            <input type="text" placeholder="站内搜索" class="search">
+            <input type="button" class="submit">
+        </form>
+    </div>
+    <div class="banner">
+        <img src="./img/banner/imgChangeLeft.png" id="imgChangeLeft" class="imgChange">
+        <img src="./img/banner/imgChangeRignt.png" id="imgChangeRignt" class="imgChange">
+        <div id="banner">
+        </div>
+    </div>
+    <div class="back">
+        <div class="w1200" id="content">
+        </div>
+    </div>
+    <div id="AircraftWar">
+        <div class="interface" id="startInterface">
+            <img src="./img/AircraftWar/name.png" class="name">
+            <img src="" id="heroStart" class="hero">
+            <img src="" id="start">
+        </div>
+        <div class="interface" id="runInterface">
+            <img src="./img/exit.png" id="aircraftWarExit">
+            <div class="score">
+                <span>SCORE:</span>
+                <span id="score"></span>
+            </div>
+            <img src="" id="heroRun" class="hero">
+            <div id="menu">
+                <p id="menuScore">得分：</p>
+                <p id="menuMaxScore">最高分：</p>
+                <img src="./img/AircraftWar/replay.png" id="replay">
+                <img src="./img/AircraftWar/out.png" id="out">
+            </div>
+        </div>
+    </div>
+    <div id="Sokoban">
+        <img src="./img/exit.png" id="sokobanExit">
+    </div>
+</body>
+<script src="./JavaScript/aircraftWar.js"></script>
+<script src="./JavaScript/index.js"></script>
+
+</html>

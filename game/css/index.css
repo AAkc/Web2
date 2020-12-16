@@ -1,0 +1,158 @@
+.w1200{
+    width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+.harder{
+    height: 100px;
+}
+.harder>.fl-left{
+    float: left;
+}
+.harder>.fl-right{
+    float: right;
+}
+.harder .logo{
+    height: 80px;
+    margin-top: 10px;
+    margin-right: 120px;
+}
+.harder>.fl-left>li+li{
+    height: 35px;
+    padding: 0 10px;
+    margin: 38px 30px 0 30px;
+}
+.harder>.fl-left>li+li:hover{
+    border-bottom: 2px solid #fc98d1;
+}
+.harder>.fl-left>li+li>a{
+    font-size:18px;
+    font-weight:400;
+    color:rgba(0,0,0,1);
+}
+.harder>.fl-left>li+li:hover>a{
+    font-size:18px;
+    font-weight:400;
+    color:#fc98d1;
+}
+.harder>form{
+    margin-right: 120px;
+    margin-top: 35px;
+}
+.harder>form>.search{
+    float: left;
+    height: 30px;
+    width: 260px;
+    padding-left: 10px;
+}
+.harder>form>.search:focus{
+    outline: 1px solid #fc98d1;
+}
+.harder>form>.submit{
+    float: left;
+    height: 34px;
+    width: 34px;
+    border: 1px solid #fc98d1;
+    background: #fc98d1 url(../img/search.png) no-repeat center center;
+    background-size: 19px 19px;
+}
+.harder>form>.submit:hover{
+    cursor: pointer;
+}
+.harder>form>.submit:focus{
+    outline: 0 solid #fc98d1;
+}
+.harder>form>.submit:active{
+    outline: 1px solid #fc98d1;
+}
+.harder>ul>li{
+    float: left;
+}
+.harder>form+ul{
+    position: relative;
+}
+/*banner图*/
+.banner{
+    height: 300px;
+    background-color: rgba(0, 0, 0, 0.3);
+    position: relative;
+}
+.banner .imgChange {
+    position: absolute;
+    height: 50px;
+    top: 125px;
+    cursor: pointer;
+}
+#imgChangeLeft {
+    left: 23.5%;
+}
+#imgChangeRignt {
+    left: 75%;
+}
+#banner {
+    height: 300px;
+    margin: 0 auto;
+    width: 750px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+#banner div {
+    position: absolute;
+}
+/*背景*/
+.back{
+    background: url(../img/back.jpg) repeat;
+    background-size: 30px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+/*内容*/
+#content{
+    box-shadow:0px 2px 5px 0px rgba(118,118,118,0.5);
+    background: url(../img/back2.jpg) repeat;
+    background-size: 200px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+.game {
+    height: 200px;
+    width: 1100px;
+    margin: 0 auto;
+    background-color: #fff;
+    margin-bottom: 30px;
+    overflow: hidden;
+    cursor: pointer;
+}
+.game .gameInfo {
+    height: 200px;
+    width: 1100px;
+    padding-top: 10px;
+    position: relative;
+}
+.game .gameInfo .gameImg {
+    height: 180px;
+    width: 270px;
+    margin-left: 10px;
+    float: left;
+}
+.game .gameInfo .gameName {
+    float: left;
+    margin-top: 60px;
+    margin-left: 70px;
+    font-size: 40px;
+    font-weight: 200;
+}
+.game .gameInfo .hoverBlack {
+    height: 200px;
+    width: 1100px;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: absolute;
+    top: 200px;
+}
+.game .gameInfo .hoverBlack span {
+    font-size: 70px;
+    line-height: 200px;
+    color: white;
+}

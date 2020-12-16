@@ -1,0 +1,114 @@
+/*飞机大战*/
+#AircraftWar {
+    height: 639px;
+    width: 360px;
+    background: url(../img/AircraftWar/background.png) repeat-y center;
+    background-size: 360px 639px;
+    position: fixed;
+    top: 30px;
+    left: 580px;
+    border: 2px solid black;
+    display: none;
+}
+#AircraftWar .interface {
+    height: 639px;
+    width: 360px;
+}
+#heroStart {
+    margin-left: 155.8px;
+    margin-top: 150px;
+}
+#AircraftWar .name {
+    height: 50px;
+    margin-left: 52.3px;
+    margin-top: 100px;
+}
+#AircraftWar .hero {
+    height: 60px;
+}
+#start {
+    margin-left: 116.5px;
+    margin-top: 90px;
+    cursor: pointer;
+}
+#runInterface {
+    position: relative;
+    overflow: hidden;
+}
+#heroRun {
+    position: absolute;
+    left: 160px;
+    top: 430px;
+}
+#AircraftWar .bullet {
+    height: 8px;
+    position: absolute;
+}
+#AircraftWar .enemy0 {
+    height: 20px;
+    position: absolute;
+}
+#AircraftWar .enemy1 {
+    height: 45px;
+    position: absolute;
+}
+#menu {
+    height: 270px;
+    width: 170px;
+    background-color: white;
+    border: 2px black solid;
+    margin-left: 79px;
+    margin-top: 158px;
+    position: relative;
+    z-index: 1;
+    font-size: 20px;
+    font-weight: 1000;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+#menu img {
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 22px;
+}
+#replay {
+    position: absolute;
+    top: 100px;
+    left: 22px;
+    cursor: pointer;
+}
+#out {
+    position: absolute;
+    top: 150px;
+    left: 22px;
+    cursor: pointer;
+}
+#AircraftWar .score {
+    font-size: 20px;
+    font-weight: 800;
+}
+#aircraftWarExit {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
+/*推箱子*/
+#Sokoban {
+    height: 600px;
+    width: 600px;
+    position: fixed;
+    top: 30px;
+    left: 500px;
+    border: 2px solid black;
+    background: url(../img/Sokoban/sokobanBackground.png) no-repeat center;
+    display: none;
+}
+#sokobanExit {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    cursor: pointer;
+    z-index: 1;
+}
